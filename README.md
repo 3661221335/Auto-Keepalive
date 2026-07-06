@@ -249,4 +249,4 @@ A: 系统做了极度优化。KV 存储的写入操作仅在“添加/修改配�
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/image?repos=anlish01/Auto-Keepalive&type=Date)](https://star-history.com/#anlish01/Auto-Keepalive&Date)
+[![Star History Chart](https://api.star-history.com/image?repos=anlish01/Auto-Keepalive&type=date)](https://star-history.com/#anlish01/Auto-Keepalive&date)
