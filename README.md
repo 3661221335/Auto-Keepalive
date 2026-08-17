@@ -1,8 +1,10 @@
+
+
 # 🌐 Cloudflare Workers 自动化保活监控系统 (Auto-Keepalive Pro)
 
 * 基于 Cloudflare Workers 和 KV 存储构建的轻量级、无服务器 (Serverless) 站点保活与状态监控面板。无需额外部署服务器，利用 Cloudflare 免费额度即可实现分钟级的多站点监控与多渠道告警。
 * 前端面板[在线演示测试](https://alive-demo.gcx.indevs.in/)
-　　测试用户名：admin，密码：admin
+  测试用户名：admin，密码：admin
 
 
 ---
@@ -29,7 +31,7 @@
 
 * **⚡ 纯 Serverless 架构**：依托 Cloudflare Workers 运行，数据存储于 Cloudflare KV，极速、稳定且完全免费。
 * **🎨 现代化可视化面板**：内置响应式 Web UI，支持深色/浅色主题自由切换，所有增删改查通过页面即可闭环。
-* **🔒 基础安全认证**：面板采用 Basic Auth 账号密码保护，保障配置数据安全。
+* **🔒 基础安全认证**：面板采用独立登录页与 Session 会话机制保护，保障配置数据安全。
 * **🔗 灵活的任务管理**：
     * 支持添加无限量保活任务（受限于 CF 免费额度限制）。
     * 独立配置每个任务的探测频率（分钟级）。
